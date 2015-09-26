@@ -10,16 +10,16 @@ boardtype=0x06b6
 #boardflags2=0x00000000
 #boardflags3=0x08002180
 
-##Modified by BRCM
+##Modified by BRCM 
 boardflags=0x10081401
 boardflags2=0x00000000
 boardflags3=0x08001188
-#Option : define BFL3_PTW70_WAR 0x010000 /acphy, support PTW70 equipment
+#Option : define BFL3_PTW70_WAR 0x010000 /acphy, support PTW70 equipment 
 #Option : define BFL3_ACPHY_LPMODE_2 0x0100000 / for lpmode_2g choice /
 #boardflags3=0x08111188
 
 
-#boardnum=57410
+#boardnum=57410 
 macaddr=00:90:4c:c5:12:38
 ccode=ALL
 regrev=0
@@ -43,7 +43,7 @@ pdetrange2g=2
 extpagain5g=2
 pdetrange5g=2
 
-##Modified by BRCM : 20130824
+##Modified by BRCM : 20130824 
 rxgains2gelnagaina0=4
 #rxgains2gelnagaina0=3
 
@@ -110,7 +110,7 @@ mcsbw202gpo=0x99555553
 mcsbw402gpo=0x99555553
 
 
-# Default Target Power for 5G
+# Default Target Power for 5G 
 # 11a : 14dBm (54~24M)/16dBm(18~6M)
 # 11n : 13dBm (MCS7) 14dBm(6~3)/16dBm(MCS2~0)
 # 11nHT40 : 13dBm
@@ -180,3 +180,4 @@ rssicorrnorm_c0=-1,-1
 ##5G RSSI compenation Low(36-48):20/40/80, Mid(54-64):20/40/80, High(100-140):20/40/80, X1(149-165):20/40/80
 rssicorrnorm5g_c0=-2,-1,-1,-2,-1,-1,1,2,2,3,4,4
 #rssicorrnorm5g_c0=3,3,3,2,2,2,2,2,2,2,2,2
+
