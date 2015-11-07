@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
 		vendor/lge/d856/proprietary/etc/permissions/btmultisim.xml:system/etc/permissions/btmultisim.xml \
 		vendor/lge/d856/proprietary/etc/permissions/com.broadcom.bt.xml:system/etc/permissions/com.broadcom.bt.xml \
 		vendor/lge/d856/proprietary/etc/permissions/com.broadcom.fm.xml:system/etc/permissions/com.broadcom.fm.xml \
-    vendor/lge/d856/proprietary/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd:system/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd \
     vendor/lge/d856/proprietary/etc/firmware/BCM4339_003.001.009.0061.0313_FM_I2S.hcd:system/etc/firmware/BCM4339_003.001.009.0061.0313_FM_I2S.hcd \
     vendor/lge/d856/proprietary/etc/firmware/BCM4339_003.001.009.0061.0312.hcd:system/etc/firmware/BCM4339_003.001.009.0061.0312.hcd \
     vendor/lge/d856/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
@@ -93,9 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d856/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/d856/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/d856/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/lge/d856/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/d856/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
-    vendor/lge/d856/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
     vendor/lge/d856/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     vendor/lge/d856/proprietary/etc/wifi/bcmdhd_lgit.cal:system/etc/wifi/bcmdhd_lgit.cal \
     vendor/lge/d856/proprietary/etc/wifi/bcmdhd_murata.cal:system/etc/wifi/bcmdhd_murata.cal
